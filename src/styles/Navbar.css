@@ -7,12 +7,15 @@
 
 }
 
-.logo {
+.nav-contenedor .logo {
     height: 100px;
 }
 
-.a-container a {
+.nav-contenedor .a-container .nav-category {
     margin-left: 50px;
     margin-right: 50px;
-
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family: "Shantell Sans", cursive;
 }

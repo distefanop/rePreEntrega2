@@ -1,0 +1,22 @@
+.count-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.count-btn {
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contador-span {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.count-contenedor .btn {
+    font-family: "Afacad Flux", sans-serif;
+}

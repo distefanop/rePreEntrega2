@@ -1,0 +1,28 @@
+.card {
+    height: 440px;
+}
+
+.card .card-img {
+    height: 286.4px;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-body h5 {
+    height: 48px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;   
+}
+
+.card .card-body p{
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.card .card-body .btn {
+    font-family: "Afacad Flux", sans-serif;
+}

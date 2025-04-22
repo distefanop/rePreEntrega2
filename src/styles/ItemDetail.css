@@ -1,0 +1,24 @@
+.detail-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+}
+
+.detail-contenedor h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.detail-contenedor p {
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.detail-img {
+    border-radius: 20px;
+    height: 200px;
+    object-fit: cover;
+    
+}

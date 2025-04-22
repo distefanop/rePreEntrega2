@@ -4,7 +4,7 @@ import Badge from 'react-bootstrap/Badge';
 const CartWidget = () => {
     return (
         <div>
-            <IoCartOutline fontSize={'25px'}/>
+            <IoCartOutline fontSize={'25px'} color="green"/>
             <Badge bg="warning" text="dark">
                 2
             </Badge>
