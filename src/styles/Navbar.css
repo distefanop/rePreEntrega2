@@ -18,4 +18,10 @@
     color: green;
     font-size: 20px;
     font-family: "Shantell Sans", cursive;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.nav-contenedor .a-container .nav-category:hover{
+    transform: scale(1.2);
 }

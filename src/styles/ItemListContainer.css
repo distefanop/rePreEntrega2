@@ -1,12 +1,13 @@
 .loader {
-    font-size: 30px;
     margin-top: 5rem;
     text-align: center;
-    font-family: "Shantell Sans", cursive;
+    font-family: "Shantell Sans", cursive;    
+    font-size: 30px;
 }
 
 .saludo {
     text-align: center;
     margin-top: 1rem;
     font-family: "Shantell Sans", cursive;
+    font-size: 30px;
 }

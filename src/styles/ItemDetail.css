@@ -22,3 +22,13 @@
     object-fit: cover;
     
 }
+
+/* .swal2-popup{
+    display: flex;
+    color: "#716add",
+} */
+
+.swal2-title{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 25px;
+}

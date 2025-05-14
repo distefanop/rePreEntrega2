@@ -1,0 +1,19 @@
+.empty-cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Shantell Sans", cursive;
+    font-size: 30px;
+  }
+
+h3{
+    font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
