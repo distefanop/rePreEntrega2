@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 const ItemDetail = ({productDetail}) => {
   const [purchase, setPurchase] = useState(false)
 
-  const {addToCart} = useContext(CartContext)
+  const {addToCart, itemQuantity} = useContext(CartContext)
 
   const onAdd = (cantidad) => {
     addToCart(productDetail,cantidad)
@@ -20,22 +20,26 @@ const ItemDetail = ({productDetail}) => {
       width: 1000,
       color: "#008000",
       backdrop: `
-        rgba(0, 128, 0, 0.56)
+       rgba(148, 184, 89, 0.5)
         left top
         no-repeat
       `
     });
   }
 
+  const stockActualizado = productDetail.stock - itemQuantity(productDetail.id)
+
   return (
     <div className='detail-contenedor'>
-        <h2>{productDetail.name}</h2>
+      <h2>{productDetail.name}</h2>
+      <div className='detail'>
         <img src={productDetail.img} alt={productDetail.name} className='detail-img'/>
         <p>{productDetail.description}</p>
         <p>${productDetail.price},00</p>
+      </div>    
         {purchase 
         ? <Link className='btn btn-dark' to='/cart'>Ir al carrito</Link> 
-        : <ItemCount stock={productDetail.stock} onAdd={onAdd}/>}
+        : <ItemCount stock={stockActualizado} onAdd={onAdd}/>}
     </div>
   )
 }

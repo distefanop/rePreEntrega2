@@ -21,13 +21,18 @@ const comprar = ()=>{
 }
 
   return (
-    <div className='count-contenedor'>
-        <div className='count-btn'>
-            <button className='btn btn-warning' onClick={substract}>-</button>
-            <span className='contador-span'>{count}</span>
-            <button className='btn btn-warning' onClick={add}>+</button>
-        </div>
-        <button className='btn btn-dark' onClick={()=>onAdd(count)}>Agregar al carrito </button>
+    <div>
+        {
+            stock === 0 ? <p>Producto sin stock</p>
+            : <div className='count-contenedor'>
+            <div className='count-btn'>
+                <button className='btn btn-warning' onClick={substract}>-</button>
+                <span className='contador-span'>{count}</span>
+                <button className='btn btn-warning' onClick={add}>+</button>
+            </div>
+            <button className='btn btn-dark' onClick={()=>onAdd(count)}>Agregar al carrito </button>
+            </div>
+        }
     </div>
   )
 }

@@ -4,13 +4,13 @@ import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
 const CartWidget = () => {
-    const {cartQuantity} = useContext(CartContext)
+    const {cartQuantity, cart} = useContext(CartContext)
     return (
         <div>
             <IoCartOutline fontSize={'25px'} color="green"/>
-            <Badge bg="warning" text="dark">
+            {cart.length > 0 && <Badge bg="warning" text="dark">
                 {cartQuantity()}
-            </Badge>
+            </Badge>}
         </div>
     )
 }

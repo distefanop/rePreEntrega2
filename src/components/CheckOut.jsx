@@ -6,6 +6,7 @@ import { addDoc, collection, doc, getDoc, serverTimestamp, updateDoc } from 'fir
 import { db } from '../service/firebase'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
 const CheckOut = () => {
@@ -34,7 +35,7 @@ const CheckOut = () => {
                   width: 1000,
                   color: "#fd8f0a",
                   backdrop: `
-                    rgba(251, 185, 32, 0.88)
+                  rgba(251, 185, 32, 0.5)
                     left top
                     no-repeat
                   `
@@ -47,7 +48,7 @@ const CheckOut = () => {
                 width: 1000,
                 color: "#fd8f0a",
                 backdrop: `
-                  rgba(251, 185, 32, 0.88)
+                  rgba(251, 185, 32, 0.5)
                   left top
                   no-repeat
                 `
@@ -85,6 +86,7 @@ const CheckOut = () => {
         ?<div className='compra-realizada'>
             <h2>Gracias por tu compra</h2>
             <h3>Tu número de operación es: {orderId}</h3>
+            <Link to ='/' className='btn btn-dark'>Volver al inicio</Link>
         </div>
         :<div className='form-container'>
         <h1>Completá tus datos</h1>
@@ -108,13 +110,6 @@ const CheckOut = () => {
                     Enviar
                 </Button>
             </Form>
-        {/* <form onSubmit={finalizarCompra}>
-            <input type='text' name='name' onChange={buyerData}/>
-            <input type='text' name='lastname' onChange={buyerData}/>
-            <input type='email' name='email' onChange={buyerData}/>
-            <input type='email' name='second-email'onChange={(e)=>setValidateEmail(e.target.value)}/>
-            <button type='submit'>Enviar</button>
-        </form>  */}
         </div>}
     </div>
   )

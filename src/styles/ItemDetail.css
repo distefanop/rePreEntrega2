@@ -12,7 +12,14 @@
     font-family: "Afacad Flux", sans-serif;
 }
 
-.detail-contenedor p {
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.detail p {
     font-family: "Afacad Flux", sans-serif;
 }
 
@@ -22,11 +29,6 @@
     object-fit: cover;
     
 }
-
-/* .swal2-popup{
-    display: flex;
-    color: "#716add",
-} */
 
 .swal2-title{
     font-family: "Afacad Flux", sans-serif;
