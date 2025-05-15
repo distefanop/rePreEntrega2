@@ -53,6 +53,19 @@
   
   .form-btn {
     width: 100%;
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    color: black;
+  }
+
+  .form-btn:hover {
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+  }
+
+  .form-btn:active {
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
   }
   
   .compra-realizada {
@@ -62,4 +75,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .compra-realizada .final-btn {
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    color: black;
+    font-weight: bold;
+  }
+
+  .compra-realizada .final-btn:hover{
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+  }
+
+  .compra-realizada .final-btn:active{
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
   }

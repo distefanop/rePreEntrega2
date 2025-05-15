@@ -86,7 +86,7 @@ const CheckOut = () => {
         ?<div className='compra-realizada'>
             <h2>Gracias por tu compra</h2>
             <h3>Tu número de operación es: {orderId}</h3>
-            <Link to ='/' className='btn btn-dark'>Volver al inicio</Link>
+            <Link className='btn final-btn' to ='/' >Volver al inicio</Link>
         </div>
         :<div className='form-container'>
         <h1>Completá tus datos</h1>

@@ -23,6 +23,19 @@
     font-family: "Afacad Flux", sans-serif;
 }
 
-.card .card-body .btn {
+.card .card-body .item-btn {
     font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    color: black;
+    font-weight: bold;
+}
+
+.card .card-body .item-btn:hover {
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+}
+
+.card .card-body .item-btn:active {
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
 }

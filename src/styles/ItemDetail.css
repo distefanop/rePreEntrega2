@@ -30,6 +30,23 @@
     
 }
 
+.detail-btn-cart{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;   
+    color: black;
+    font-weight: bold;
+}
+
+.detail-btn-cart:hover {
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+}
+
+.detail-btn-cart:active {
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
+}
+
 .swal2-title{
     font-family: "Afacad Flux", sans-serif;
     font-size: 25px;

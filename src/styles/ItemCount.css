@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.count-btn {
+.count-btn-container {
     align-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -17,6 +17,35 @@
     font-family: "Afacad Flux", sans-serif;
 }
 
-.count-contenedor .btn {
+.count-btn{
     font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    width: 35px;
+    font-weight: bold;
+}
+
+.count-btn:hover{
+    background-color: #b8b042;
+    border: #b8b042 1px solid; 
+}
+
+.count-btn:active {
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
+}
+
+.count-btn-cart {
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    font-weight: bold;
+}
+
+.count-btn-cart:hover {
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+}
+
+.count-btn-cart:active {
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
 }

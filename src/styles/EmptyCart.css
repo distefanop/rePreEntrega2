@@ -17,3 +17,20 @@ h3{
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.empty-btn{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #BDB76B;    
+    color: black;
+    font-weight: bold;
+}
+
+.empty-btn:hover{
+    background-color: #b8b042;   
+    border: #b8b042 1px solid; 
+}
+
+.empty-btn:active{
+    background-color: #BDB76B !important;   
+    border: #BDB76B 1px solid !important; 
+}

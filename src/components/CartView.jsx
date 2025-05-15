@@ -18,8 +18,8 @@ const CartView = () => {
         <div className='cart-total-container'>
             <span className='cart-total'>Total a pagar: ${cartTotal()}</span>
             <div className='cart-btn-container'>
-                <button className='btn btn-dark cart-btn' onClick={clear}>Vaciar el carrito</button>
-                <Link className='btn btn-dark cart-btn' to='/checkout'>Finalizar compra</Link> 
+                <button className='btn cart-btn' onClick={clear}>Vaciar el carrito</button>
+                <Link className='btn cart-btn' to='/checkout'>Finalizar compra</Link> 
             </div>
         </div>
     </div>
