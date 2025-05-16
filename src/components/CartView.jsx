@@ -16,7 +16,7 @@ const CartView = () => {
         buttonsStyling: false
       });
       swalWithBootstrapButtons.fire({
-        title: "¿Estas seguro?",
+        title: "¿Estás seguro?",
         showCancelButton: true,
         confirmButtonText: "Si",
         cancelButtonText: "No",
