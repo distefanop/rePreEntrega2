@@ -20,7 +20,7 @@ const ItemDetail = ({productDetail}) => {
       width: 1000,
       color: "#008000",
       backdrop: `
-       rgba(148, 184, 89, 0.5)
+      rgba(148, 184, 89, 0.5)
         left top
         no-repeat
       `

@@ -25,17 +25,17 @@
 
 .card .card-body .item-btn {
     font-family: "Afacad Flux", sans-serif;
-    background-color: #BDB76B;    
+    background-color: #46B076;    
     color: black;
     font-weight: bold;
 }
 
 .card .card-body .item-btn:hover {
-    background-color: #b8b042;   
-    border: #b8b042 1px solid; 
+    background-color: #E4C520;   
+    border: #E4C520 1px solid; 
 }
 
 .card .card-body .item-btn:active {
-    background-color: #BDB76B !important;   
-    border: #BDB76B 1px solid !important; 
+    background-color: #46B076 !important;   
+    border: #46B076 1px solid !important; 
 }

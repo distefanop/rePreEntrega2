@@ -33,7 +33,7 @@ const CheckOut = () => {
                   showConfirmButton: false,
                   timer: 1200,
                   width: 1000,
-                  color: "#fd8f0a",
+                  color: "#E4C520",
                   backdrop: `
                   rgba(251, 185, 32, 0.5)
                     left top
@@ -46,7 +46,7 @@ const CheckOut = () => {
                 showConfirmButton: false,
                 timer: 1200,
                 width: 1000,
-                color: "#fd8f0a",
+                color: "#E4C520",
                 backdrop: `
                   rgba(251, 185, 32, 0.5)
                   left top
@@ -106,7 +106,7 @@ const CheckOut = () => {
                 <Form.Group className="mb-3 input">
                     <Form.Control type="email" placeholder="Volvé a ingresar tu correo electrónico" name='second-email'onChange={(e)=>setValidateEmail(e.target.value)}/>
                 </Form.Group>
-                <Button className='form-btn' variant="secondary" type="submit">
+                <Button className='form-btn' variant="none" type="submit">
                     Enviar
                 </Button>
             </Form>
